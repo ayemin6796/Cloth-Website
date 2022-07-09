@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+$primary: #101010;
+$light:#B7B8C4;
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Lora', serif;
+  background-color: #B7B8C4;
+}
+.home-sec{
+  position: relative;
+}
+.home_img_1{
+  position: absolute;
+  right: 70px;
+  top: -260px;
+}
+.home_img_2{
+  position: absolute;
+  right: 265px;
+  top: -20px;
+}
+.collection{
+  position: relative;
+}
+.collec-sec{
+  position: absolute;
+  top:420px;
+}
+.owl-prev span{
+  font-size: 35px;
+}
+.owl-next span{
+  font-size: 35px;
+}
+.owl-dot span{
+  visibility: hidden;
+}
+.logo{
+  width: 210px;
+  margin: 0px 40px;
+}
+.logo-gp{
+  position: relative;
+}
